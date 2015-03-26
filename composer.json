@@ -1,0 +1,22 @@
+{
+	"name": "brosland/google",
+	"description": "Nette extension for Google Analytics, Google Custom Search and Google Translate (only frontend side).",
+	"keywords": ["brosland", "nette", "google"],
+	"homepage": "",
+	"authors": [
+		{
+			"name": "Martin Bros",
+			"email": "mbskot@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"brosland\\google": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">= 5.5",
+		"nette/nette": "~2.3.0"
+	}
+}
