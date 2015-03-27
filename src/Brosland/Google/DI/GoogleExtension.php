@@ -1,6 +1,6 @@
 <?php
 
-namespace Brosland\CMS\DI;
+namespace Brosland\Google\DI;
 
 use Brosland\Google\UI\Components;
 
