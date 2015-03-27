@@ -35,7 +35,7 @@ class GoogleExtension extends \Nette\DI\CompilerExtension
 			trigger_error('You should register ' . \Brosland\DI\BroslandExtension::class
 				. ' before \'' . get_class($this) . '\'.', E_USER_NOTICE);
 
-			$this->compiler->addExtension('brosland', new \Brosland\DI\Extension());
+			$this->compiler->addExtension('brosland', new \Brosland\DI\BroslandExtension());
 		}
 
 		$builder = $this->getContainerBuilder();
