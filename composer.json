@@ -11,12 +11,13 @@
 	],
 	"autoload": {
 		"psr-0": {
-			"brosland\\google": "src/"
+			"Brosland\\Google\\": "src/"
 		}
 	},
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">= 5.5",
-		"nette/nette": "~2.3.0"
+		"nette/nette": "~2.3.0",
+		"brosland/framework": "dev-master"
 	}
 }
