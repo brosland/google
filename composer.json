@@ -12,7 +12,12 @@
 	"autoload": {
 		"psr-0": {
 			"Brosland\\Google\\": "src/"
-		}
+		},
+		"classmap": [
+			"src/Brosland/Google/UI/Components/AnalyticsControl.php",
+			"src/Brosland/Google/UI/Components/CustomSearchControl.php",
+			"src/Brosland/Google/UI/Components/TranslateControl.php"
+		]
 	},
 	"minimum-stability": "dev",
 	"require": {
