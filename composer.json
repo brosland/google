@@ -2,7 +2,8 @@
 	"name": "brosland/google",
 	"description": "Nette extension for Google Analytics, Google Custom Search and Google Translate (only frontend side).",
 	"keywords": ["brosland", "nette", "google"],
-	"homepage": "",
+	"homepage": "http://bros.land",
+	"license": ["MIT"],
 	"authors": [
 		{
 			"name": "Martin Bros",
@@ -22,7 +23,7 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">= 5.5",
-		"nette/nette": "~2.3.0",
+		"nette/nette": "~2.3",
 		"brosland/framework": "dev-master"
 	}
 }
