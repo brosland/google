@@ -2,7 +2,7 @@
 
 namespace Brosland\Google\UI\Components;
 
-class CustomSearchControl extends \Brosland\Application\UI\Control
+class CustomSearchControl extends \Brosland\UI\Control
 {
 	/**
 	 * @var string

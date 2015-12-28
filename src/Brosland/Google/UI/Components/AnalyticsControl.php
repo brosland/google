@@ -2,7 +2,7 @@
 
 namespace Brosland\Google\UI\Components;
 
-class AnalyticsControl extends \Brosland\Application\UI\Control
+class AnalyticsControl extends \Brosland\UI\Control
 {
 	/**
 	 * @var string

@@ -4,7 +4,7 @@ namespace Brosland\Google\UI\Components;
 
 use Nette\Utils\Html;
 
-class TranslateControl extends \Brosland\Application\UI\Control
+class TranslateControl extends \Brosland\UI\Control
 {
 	/**
 	 * @var string
